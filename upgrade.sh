@@ -4,5 +4,7 @@ pkg update && pkg upgrade
 pkg install git
 rm -rf ddoslimit
 git clone https://github.com/LimitQueenProject/ddoslimit
-
-echo "\33[36;1mupgrade selesai"
+ehco ""
+echo ""
+echo "ketik cd"
+echo ""
