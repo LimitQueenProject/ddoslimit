@@ -59,7 +59,7 @@ elif len(sys.argv) == 4:
     num_requests = int(sys.argv[3])
 else:
     print ("ERROR BOY\n Gunakan: " + sys.argv[0] + " < Hostname > < Port > < JUMLAH SERANGAN BOY > ")
-    print ("\n \33[31;1mContoh: python ddos.py 178.128.23.56 80 999999, \33[33;1m178.128.23.56 ini ip, 80 itu port, 999999 itu paket yang di kirim, lebih banyak lebih bagus")
+    print ("\n \33[31;1mContoh: python2 ddos.py 178.128.23.56 80 999999, \33[33;1m178.128.23.56 ini ip, 80 itu port, 999999 itu paket yang di kirim, lebih banyak lebih bagus")
     print ("\33[37;1m")
     sys.exit(1)
     
